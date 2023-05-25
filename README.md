@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 We are :D coin
 
 <!--
 **SuperSmileCoin/SuperSmileCoin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
