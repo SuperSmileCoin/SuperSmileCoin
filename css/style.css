@@ -1,0 +1,137 @@
+/* ******************** All ******************** */
+
+html body {
+  overflow-x: hidden;
+}
+
+
+/* ******************** Navbar ******************** */
+
+.navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2800, 0, 0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon[aria-expanded=true] {
+  --bs-navbar-toggler-border-color: white;
+}
+
+.navbar-toggler-icon[aria-expanded=false] {
+  --bs-navbar-toggler-border-color: white;
+}
+
+.nav-link {
+  color: var(--white-color);
+}
+
+.nav-link:hover {
+  color: var(--six-color);
+  text-decoration: underline;
+}
+
+.nav-link[aria-expanded=true] {
+  color: var(--six-color);
+}
+
+.nav-link[aria-expanded=false] {
+  color: var(--white-color);
+}
+
+.nav-link[aria-expanded=false]:hover {
+  color: var(--six-color);
+}
+
+
+/* ******************** Animations ******************** */
+
+@keyframes slideUpFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.slide-up-fade-in {
+  animation: slideUpFadeIn 0.6s cubic-bezier(0.3, 0.7, 0.3, 1);
+  animation-fill-mode: backwards;
+}
+
+@keyframes zoomOutFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.zoom-out-fade-in {
+  animation: zoomOutFadeIn 0.5s cubic-bezier(0.5, 0.7, 0.7, 1);
+  animation-fill-mode: backwards;
+}
+
+.delay-1 {
+  animation-delay: 0.1s;
+}
+.delay-2 {
+  animation-delay: 0.2s;
+}
+.delay-3 {
+  animation-delay: 0.3s;
+}
+.delay-4 {
+  animation-delay: 0.4s;
+}
+.delay-5 {
+  animation-delay: 0.5s;
+}
+.delay-6 {
+  animation-delay: 0.6s;
+}
+.delay-7 {
+  animation-delay: 0.7s;
+}
+
+.delay-12 {
+  animation-delay: 1.2s;
+}
+
+.delay-20 {
+  animation-delay: 2s;
+}
+
+.delay-25 {
+  animation-delay: 2.5s;
+}
+
+
+/* ******************** Seccion 1 ******************** */
+
+.first-title {
+  font-size: 9rem;
+  font-weight: bold;
+}
+
+/* ******************** Seccion 2 Why ******************** */
+
+/* ******************** Section 3 Learn more ************* */
+
+/* ******************** Section 3 Tokenomics ************* */
+
+.list-style-none {
+  list-style: none;
+}
+
+.graph {
+  width: auto;
+  height: 50vh;
+}
