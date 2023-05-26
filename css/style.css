@@ -117,8 +117,15 @@ html body {
 /* ******************** Seccion 1 ******************** */
 
 .first-title {
-  font-size: 9rem;
+  font-size: 10rem;
   font-weight: bold;
+}
+
+.clock {
+  font-size: 1rem;
+  color: black;
+  border: 0.5px dotted black;
+  padding: 10px;
 }
 
 /* ******************** Seccion 2 Why ******************** */
@@ -135,3 +142,45 @@ html body {
   width: auto;
   height: 50vh;
 }
+
+/* ******************** Section 4 Roadmap ************* */
+
+/* ******************** Section 5 Nft's ************* */
+
+.text-higer {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+/* ******************** Section 6 How to buy ************* */
+
+/* ******************** 7 Scroll Top ************************ */
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;  
+}
+
+.scroll-top-btn {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  bottom: 1vh;
+  cursor: pointer;
+  display: flex;
+  font-size: 2.5rem;
+  height: 4rem;
+  justify-content: center;
+  padding: 0;
+  position: fixed;
+  outline: 0;
+  right: calc(4.25rem + 1vw);
+  transition: transform 0.5s ease;
+  width: 4rem;
+}
+
+.scroll-top-btn:hover {
+  border: 1px solid var(--second-color);
+}
+
+/* ********************** 8 Footer ************************** */
